@@ -83,7 +83,7 @@ def final_format
 
   end
 }
-
+return final_format
 end
 
 
