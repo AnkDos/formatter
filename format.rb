@@ -55,6 +55,10 @@ end
 end
 
 def final_format
+  final_format=Array.new
+  first=true
+  last="."
+  skip=false
 
 end
 
