@@ -45,7 +45,8 @@ end
 @format_array.push(val)
 i+=1
 end
-
+@format_array=@format_array.compact!
+# print @format_array
 
 end
 
