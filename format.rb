@@ -12,6 +12,13 @@ end
 
 
 def format
+
+@format_array=Array.new
+i=0
+flag=true
+firstl=true
+firsts=true
+
 end
 
 end
