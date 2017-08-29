@@ -91,3 +91,5 @@ end
 
 a=String(gets)
 obj=Format.new
+puts "Number of alphabets : #{obj.make_ary(a)}"
+ obj.format
