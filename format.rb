@@ -45,7 +45,8 @@ end
 @format_array.push(val)
 i+=1
 end
-
+#ignoring nil values
+ni=0
 
 end
 
