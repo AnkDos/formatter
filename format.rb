@@ -88,3 +88,5 @@ end
 
 
 end
+
+a=String(gets)
