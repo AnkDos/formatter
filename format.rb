@@ -90,3 +90,4 @@ end
 end
 
 a=String(gets)
+obj=Format.new
