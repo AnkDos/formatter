@@ -19,6 +19,23 @@ flag=true
 firstl=true
 firsts=true
 
+while i<@ary.length
+
+if flag==true
+
+if firstl==true
+val=@ary[0].capitalize
+firstl=false
+else
+  val=@ary[i]
+end
+
+else
+  val=@ary[i+1]
+  flag=false
+end
+
+
 end
 
 end
