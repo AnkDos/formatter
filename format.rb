@@ -1,4 +1,4 @@
-class format
+class Format
 def make_ary(inp)
   nary=Array.new
   @ary=inp.split("").each do |x|
