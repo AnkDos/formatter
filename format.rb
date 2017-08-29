@@ -59,7 +59,7 @@ def final_format
   first=true
   last="."
   skip=false
-
+#idea
 end
 
 
