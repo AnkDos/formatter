@@ -98,3 +98,4 @@ puts "Number of alphabets : #{obj.make_ary(a)}"
    |x|
    print x
  }
+#end
