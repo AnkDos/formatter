@@ -7,7 +7,7 @@ def make_ary(inp)
   nary.push(x)
   end
   end
-
+return nary.length-1
 end
 
 end
