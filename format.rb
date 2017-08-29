@@ -60,6 +60,10 @@ def final_format
   last="."
   skip=false
 #idea
+@format_array.each{
+
+}
+
 end
 
 
