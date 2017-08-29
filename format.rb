@@ -10,4 +10,8 @@ def make_ary(inp)
 return nary.length-1
 end
 
+
+def format
+end
+
 end
