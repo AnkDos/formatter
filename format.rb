@@ -93,3 +93,8 @@ a=String(gets)
 obj=Format.new
 puts "Number of alphabets : #{obj.make_ary(a)}"
  obj.format
+
+ obj.final_format.each{
+   |x|
+   print x
+ }
