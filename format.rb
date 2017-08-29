@@ -34,6 +34,17 @@ else
   val=@ary[i+1]
   flag=false
 end
+if @ary[i]=="."
+  if firsts==true
+@format_array.push(".")
+firsts=false
+end
+val=@ary[i+1].capitalize
+flag=false
+end
+@format_array.push(val)
+i+=1
+end
 
 
 end
