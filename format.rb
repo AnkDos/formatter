@@ -62,6 +62,26 @@ def final_format
 #idea
 @format_array.each{
 
+  |x|
+
+  if skip==true
+  skip=false
+  else
+  if first==true && x=x.capitalize
+  final_format.push(x)
+  first=false
+
+  elsif x=="." && first==false
+  y=@format_array.index(x)+1
+   final_format.push(".")
+   final_format.push(@format_array[y])
+   skip=true
+  else
+
+  final_format.push(x.downcase)
+  end
+
+  end
 }
 
 end
